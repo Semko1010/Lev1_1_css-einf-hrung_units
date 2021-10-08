@@ -31,10 +31,34 @@ ul li:last-child{
     background-color: white;
     font-size: 0.7cm;
 }
+ul li:first-child::before{
+    content: "\274D";
+    
+}
+ul li:nth-of-type(2)::before{
+    content: "\274D";
+    
+}
+ul li:last-child::before{
+    content: "\274D";
+}
+ul li:first-child::before{
+    padding-right: 10px;
+    
+}
+ul li:nth-of-type(2)::before{
+    padding-right: 10px;
+    
+}
+ul li:last-child::before{
+    padding-right: 10px;
+}
 
 article h3{
     color: white;
     font-size: 2cm;
+    margin-left: 2.5vw;
+    
 }
 ul{
     list-style: none;
